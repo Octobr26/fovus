@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 const API_ENDPOINT_BASE =
-    "https://l1i67jz379.execute-api.us-west-1.amazonaws.com/dev";
-const BUCKET_NAME = "file-storage-fovus";
+    "https://62kanni3vi.execute-api.us-west-1.amazonaws.com/dev";
+const BUCKET_NAME = "storage-fovus";
 
 const FileInput = () => {
     const [file, setFile] = useState<File | null>(null);
