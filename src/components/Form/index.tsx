@@ -12,12 +12,12 @@ const Form = () => {
                         <FileInput />
                     </div>
 
-                    <button
+                    {/* <button
                         type="submit"
                         className="py-3 px-5 text-sm font-medium text-center dark:text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 text-black"
                     >
                         Upload to S3
-                    </button>
+                    </button> */}
                 </form>
             </div>
         </section>
