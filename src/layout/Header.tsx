@@ -43,43 +43,38 @@ export const Header = () => {
                     <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
                             <a
-                                href="#"
-                                className="block pt-4 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:pt-2 dark:text-white md:dark:text-blue-500"
-                                aria-current="page"
+                                href="https://www.linkedin.com/in/luisdiazcf/overlay/1710386723871/single-media-viewer/?profileId=ACoAAC8O5UoBH-xtr9JQ45su6CYzZlEKYi_K-Ho"
+                                className="block py-4 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-2 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                target="_blank"
                             >
-                                Home
+                                Resume
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="https://des---plaines.com/"
                                 className="block py-4 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-2 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                target="_blank"
                             >
-                                About
+                                Graphic Design Portfolio
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="https://github.com/luisdiazco?tab=repositories"
                                 className="block py-4 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-2 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                target="_blank"
                             >
-                                Services
+                                GitHub
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#"
+                                href="https://www.linkedin.com/in/luisdiazcf/"
                                 className="block py-4 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-2 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                                target="_blank"
                             >
-                                Pricing
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#"
-                                className="block py-4 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-2 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                            >
-                                Contact
+                                LinkedIn
                             </a>
                         </li>
                         <li>
