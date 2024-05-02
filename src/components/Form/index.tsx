@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { nanoid } from "nanoid";
 
 const API_ENDPOINT_BASE =
@@ -10,17 +10,6 @@ const Form = () => {
     const [file, setFile] = useState<File | null>(null);
     const [text, setText] = useState<string>("");
     const [uploadURL, setUploadURL] = useState<string>("");
-
-    const [showMessage, setShowMessage] = useState(false);
-
-    useEffect(() => {
-        if (uploadURL) {
-            setShowMessage(true);
-            setTimeout(() => {
-                setShowMessage(false);
-            }, 3000); // Hide the message after 5 seconds
-        }
-    }, [uploadURL]);
 
     const onFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         const files = event.target.files;
@@ -143,7 +132,7 @@ const Form = () => {
                     </button>
                 </form>
 
-                {showMessage && <p className="pt-3">File uploaded!</p>}
+                {uploadURL && <p className="pt-3">File uploaded!</p>}
             </div>
         </section>
     );
